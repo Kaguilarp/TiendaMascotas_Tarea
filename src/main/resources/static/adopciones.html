@@ -11,8 +11,8 @@
             <nav class="nav">
                 <h1><a href="index.html"class="nav-link logo">Pet Shop Store</a></h1>              
                 <ul class="nav-menu">
-                    <li class="nav-menu-item"><a href="hotel.html"class="nav-link nav-menu-link" >&triangleleft;</a></li>
-                    <li class="nav-menu-item"><a href="ubicacion.html"class="nav-link nav-menu-link">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a href="ubicacion.html"class="nav-link nav-menu-link" >&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a href="index.html"class="nav-link nav-menu-link">&triangleright;</a></li>
                     <li class="nav-menu-item"><a href="grooming.html"class="nav-link nav-menu-link"></a></li>
                     <li class="nav-menu-item"><a href="grooming.html"class="nav-link nav-menu-link">Grooming</a></li>
                     <li class="nav-menu-item"><a href="funeraria.html"class="nav-link nav-menu-link">Funeraria</a></li>
@@ -26,20 +26,20 @@
             </nav>
         </header>
         <aside>
-            <h2 class="noticia">Regístrate</h2>
-            <p>Sé parte de nuestra familia</p>
+            <h2 class="noticia">Registro de adopción</h2>
+            <br>
+            <p>Ayudanos a encontrarle un nuevo hogar a nuestros amiguitos</p>
+            <br>
         </aside>
         <section>
             <article>
-                <h3>Registro de clientes</h3>
-                <form action="/usuario/registro" method="POST"> 
-                    Usuario: <input type="text" name="username" value="" size="15" required /><br>
-                    Contraseña: <input type="password" name="password" value="" size="10" /><br>
-                    Nombre del dueño: <input type="text" name="nombre" value="" size="35" /><br>
+                <h3>Registro preliminar</h3>
+                <form action="/usuario/registro" method="POST">                     
+                    Nombre del adoptante: <input type="text" name="nombre" value="" size="35" /><br>
+                    Cédula: <input type="number" name="cedula" value="" /><br>
                     Teléfono: <input type="number" name="telefono" value="" /><br>
-                    Correo del dueño: <input type="email" name="nombre" placeholder="correo@correo.com" size="35" /><br>
-                    Nombre Mascota: <input type="text" name="nombre_masc" value="" size="35" /><br>                    
-                    Fecha de nacimiento mascota: <input type="date" name="fNacimiento" value="0" /><br>
+                    Correo del adoptante: <input type="email" name="nombre" placeholder="correo@correo.com" size="35" /><br>                    
+                    Fecha prevista para la adopción <input type="date" name="fAdopt" value="0" /><br>
                     Foto:<input type="file" name="foto" accept="image/*" /><br>
                     Raza: <select name="raza">
                         <option value="0" >Perro</option>
@@ -48,8 +48,8 @@
                         <option value="3" >Reptil</option>
                         <option value="4" >Equino</option>
                     </select><br>
-                    Convivo con otras mascotas<input type="radio" name="zona" value="1" /> Soy solo yo<input type="radio" name="zona" value="2" /><br>
-                    Deseo recibir información de promociones  <input type="checkbox" name="prom" /><br>      
+                    Tengo un lugar amplio para mantener a la nueva mascota<input type="radio" name="zona" value="1" /> Mi espacio es muy limitado<input type="radio" name="zona" value="2" /><br>
+                    Tengo la solvencia económica para mantener a la mascota que quiero adoptar  <input type="checkbox" name="solvencia" /><br>      
                     
                     <input type="submit" value="registro" name="btnRegistro" />
                     
@@ -60,10 +60,10 @@
             
             <article>
                 </hr>
-                <h2>Familia Pet Shop Store</h2>
+                <h2>¡Gracias por querer brindar una segunda oportunidad!</h2>
                 <figure>
-                    <img src="Imagenes/LoneTree_iStock-106396236-1024x724.jpg" alt="" style="width: 600px;height: 400px"/>
-               
+                    <img src="Imagenes/Adopción-de-mascotas-1.png" alt="" style="width: 600px;height: 400px"/>
+                                   
                 </figure>
                 
             </article> 
